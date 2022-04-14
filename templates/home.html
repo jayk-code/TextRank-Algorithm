@@ -22,12 +22,10 @@
 		<form action="{{ url_for('predict')}}" method="POST">
 		
         
-        <p>Enter text</p>
-
-
-    	<textarea name="Enter text" rows="15" cols="200"></textarea>
-        <p>Number of sentences</p>
-		<input type="number" name="Number of sentences"/>
+        <p>Enter ProductId</p>
+		<input type="text" name="ProductId"/>
+        <p>Number of top reviews</p>
+		<input type="number" name="Number of top reviews"/>
 		<br/>
 
 		<input type="submit" class="btn-info" value="predict" style="margin-top: 20px; width:100px;" />
